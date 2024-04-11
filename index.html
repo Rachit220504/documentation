@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML & CSS Documentation</title>
+  <style>
+    /* CSS styles go here */
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 20px 0;
+    }
+
+    section {
+      margin-bottom: 40px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .temp16{
+      max-width: 40%;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .diff {
+      display: inline-block;
+      padding: 5px 10px;
+      background-color: #e7f2fa;
+      border: 1px solid #7fbbe3;
+      border-radius: 5px;
+      color: #333;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    footer p {
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Documentation to Edit Webpage through GitHub</h1>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <section>
+        <h2>Getting Started</h2>
+        <p>First, install <a href="https://code.visualstudio.com/download">Visual Studio Code</a> if not installed.</p>
+        <p>After installing, open VS Code, click on <span class="diff">Source Control</span>, and then click on <span class="diff">Download Git for Windows</span>.</p>
+        <img src="./assets/Screenshot 2024-04-11 165418.png" alt="Screenshot 1">
+        <p>Which will redirect you to the page shown below. Then download the setup according to your PC.</p>
+        <img src="./assets/Screenshot 2024-04-11 165957.png" alt="Screenshot 2">
+        <p>Make sure while installing it you are choosing the default editor used by Git as <span class="diff">Use Visual Studio Code as Git's default editor.</span></p>
+        <img src="./assets/Screenshot 2024-04-11 170452.png" alt="Screenshot 3">
+        <p>And then simply install it.</p>
+        <p>
+          Now visit this github repository <a href="https://github.com/Rachit220504/webTask0">Github Repo</a>.
+        </p>
+        <p>
+          Click on the green button as <span class="diff">Code</span>.<br>
+          And copy the link Shown as below.
+        </p>
+        <img class="temp4" src="./assets/Screenshot 2024-04-11 171958.png" alt="">
+        <p>
+          After Copying the Link.
+        </p>        
+        <p>
+          Go to your Desktop, right click on desktop and open in terminal.
+        </p>
+        <p>
+          And write command as git clone <span class="diff">COPIED LINK</span>.
+        </p>
+        <img class="temp5" src="./assets/Screenshot 2024-04-11 172913.png" alt="">
+        <p>Then press Enter. By this you have successfully clone the git repository.</p>
+        <p>
+          It will show on the Desktop as folder name <span class="diff">webTask0</span>.
+        </p>
+        <img class="temp6" src="./assets/Screenshot 2024-04-11 173153.png" alt="">
+        <p>
+          Now open the vs code, on the top left corner go to <span class="diff">file->open folder->Desktop</span> and then select folder named as webTask0.
+        </p>
+        <img class="temp7" src="./assets/Screenshot 2024-04-11 173709.png" alt=""> 
+        <p>
+          It will open Like.
+        </p>
+        <img class="temp8" src="./assets/Screenshot 2024-04-11 173923.png" alt="">
+        <p>
+          Now in the vs code press <span class="diff">Ctrl+Shift+P</span>.
+        </p>
+        <p>
+          write git in the search bar. It will show as <span class="diff">Git:Add Remote</span>, click on it.
+        </p>
+        <img class="temp9" src="./assets/Screenshot 2024-04-11 174630.png" alt="">
+        <p>
+          Now paste the link using <span class="diff">Ctrl+V</span> that you have copied from the GitHub Repo, and press <span class="diff">Enter</span>.
+        </p>
+        <img class="temp10" src="./assets/Screenshot 2024-04-11 174838.png" alt="">
+        <p>
+          Now enter any kind of remote name of your choice and press <span class="diff">Enter</span>.
+        </p>
+        <img class="temp11" src="./assets/Screenshot 2024-04-11 175142.png" alt="">
+        <h2>
+          Now you have successfully linked to the repository.
+        </h2>
+        <p>
+          Now visit the below given link.
+          <a href="https://sphinx-tutorial.readthedocs.io/step-1/">https://sphinx-tutorial.readthedocs.io/step-1/</a>
+        </p>
+        <p>
+          Learn some basics of rst.
+        </p>
+        <p>
+          Now open vs code. go to <span class="diff"> docs->source->index.rst</span>.
+        </p>
+        <img class="temp12" src="./assets/Screenshot 2024-04-11 180733.png" alt="">
+        <p>
+          After opening index.rst file make changes whatever you want using the rst and then save it.
+        </p>
+        <img class="temp13" src="./assets/Screenshot 2024-04-11 181454.png" alt="">
+        <p>
+          After saving, go to source control.
+        </p>
+          <img class="temp14" src="./assets/Screenshot 2024-04-11 183009.png" alt="">
+          <p>
+            Now click on the bottom left <span class="diff">main*</span>.
+          </p>
+          <img class="temp15" src="./assets/Screenshot 2024-04-11 183131.png" alt="">
+          <p>
+            Now click on <span class="diff">Create new branch...</span>.
+            Provide any new branch name, and then press <span class="diff">Enter</span>.
+            Now click on <span class="diff">+</span> icon which will stag changes.
+            <img class="temp16" src="./assets/IMG-20240411-WA0006.jpg" alt="">
+            Now write any commit, eg <span class="diff">temp</span>.
+            <img class="temp16" src="./assets/IMG-20240411-WA0008.jpg" alt="">
+            Now click on the <span class="diff">"Tick-icon"</span> as commit.
+            <img class="temp16" src="./assets/IMG-20240411-WA0007.jpg" alt="">
+            Now it will ask for chose the remote so choose the remote that you have created.
+            And now click on <span class="diff">Publish Branch</span>.
+            <img class="temp16" src="./assets/IMG-20240411-WA0005.jpg" alt="">
+          </p>
+      </section>
+      
+
+      <section>
+        <h4>By this, you have made changes in the rst file and pushed the new branch to the repository.</h4>
+      </section>
+
+      <!-- Add more sections as needed -->
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; Documentation</p>
+    </div>
+  </footer>
+</body>
+</html>
